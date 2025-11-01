@@ -69,22 +69,29 @@ npm run build
 
 
 
-### 🖼️ 실행 화면 (Screenshots)
+## 🖼️ 실행 화면 (Screenshots)
+
+아래는 모든 Vue 3 Composition API 컴포넌트의 실제 실행 결과 화면입니다.  
+이미지는 `/screenshots` 폴더에 위치합니다.
+
+---
 
 | 컴포넌트 | 실행 화면 |
 |-----------|------------|
-| **E01Instance** | ![E01Instance](./screenshots/E01Instance.png) |
-| **E02Reactive** | ![E02Reactive](./screenshots/E02Reactive.png) |
-| **E03Binding** | ![E03Binding](./screenshots/E03Binding.png) |
-| **E04Directives** | ![E04Directives](./screenshots/E04Directives.png) |
-| **ChildComponent / ParentComponent** | ![Example3](./screenshots/Example3-ParentChild.png) |
-| **ChildComponent1 / ChildComponent2 / E06ParentComponent** | ![Example4](./screenshots/Example4-ProvideInject.png) |
-| **E07OptionsAPI** | ![E07OptionsAPI](./screenshots/E07OptionsAPI.png) |
-| **E08CompositionApi** | ![E08CompositionApi](./screenshots/E08CompositionApi.png) |
-| **E09CompositionAPI2** | ![E09CompositionAPI2](./screenshots/E09CompositionAPI2.png) |
-| **E10Ref** | ![E10Ref](./screenshots/E10Ref.png) |
-| **E11Reactive** | ![E11Reactive](./screenshots/E11Reactive.png) |
-| **E12RefComponent** | ![E12RefComponent](./screenshots/E12RefComponent.png) |
+| **E01Instance** | <img src="./screenshots/E01Instance.png" width="80%" /> |
+| **E02Reactive** | <img src="./screenshots/E02Reactive.png" width="80%" /> |
+| **E03Binding** | <img src="./screenshots/E03Binding.png" width="80%" /> |
+| **E04Directives** | <img src="./screenshots/E04Directives.png" width="80%" /> |
+| **ChildComponent / ParentComponent** | <img src="./screenshots/ChildComponent.png" width="45%" /> <img src="./screenshots/ParentComponent.png" width="45%" /> |
+| **ChildComponent1 / ChildComponent2 / E06ParentComponent** | <img src="./screenshots/ChildComponent1.png" width="30%" /> <img src="./screenshots/ChildComponent2.png" width="30%" /> <img src="./screenshots/E06ParentComponent.png" width="30%" /> |
+| **E07OptionsAPI** | <img src="./screenshots/E07OptionsAPI.png" width="80%" /> |
+| **E08CompositionApi** | <img src="./screenshots/E08CompositionApi.png" width="80%" /> |
+| **E09CompositionAPI2** | <img src="./screenshots/E09CompositionAPI2.png" width="80%" /> |
+| **E10Ref** | <img src="./screenshots/E10Ref.png" width="80%" /> |
+| **E11Reactive** | <img src="./screenshots/E11Reactive.png" width="80%" /> |
+| **E12RefComponent** | <img src="./screenshots/E12RefComponent.png" width="80%" /> |
+
+---
 
 
 
