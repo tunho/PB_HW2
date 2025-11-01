@@ -32,20 +32,20 @@ export default {
 ```
 
 
-🔧 주요 변경 사항
-구분	변경 전 (Vue 2)	변경 후 (Vue 3 Composition API)
-컴포넌트 정의	export default { ... }	<script setup> + export default { name: ... }
-데이터 정의	data() { return { ... }}	ref() 또는 reactive()
-계산 속성	computed: { ... }	computed(() => …)
-메서드	methods: { ... }	setup 내부 함수 정의
-감시자	watch: { ... }	watch(ref, callback)
-라이프사이클	mounted(), updated() 등	onMounted(), onUpdated() 등
-props 정의	props: { title: { default: '...' }}	withDefaults(defineProps(), { title: '...' })
-이벤트 전달	$emit('event')	emit('event') (defineEmits 사용 가능)
-provide/inject	provide(), inject: []	provide(), inject()
-DOM 참조	ref="input" → this.$refs.input	const input = ref(null) → input.value
-import 구조	전역 Vue.component	모듈별 import ... from ...
-TypeScript 지원	선택적	완전 통합 (lang="ts")
+구분                | 변경 전 (Vue 2)                            | 변경 후 (Vue 3 Composition API)
+────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────
+컴포넌트 정의        | export default { ... }                     | <script setup> + export default { name: ... }
+데이터 정의          | data() { return { ... }}                   | ref() 또는 reactive()
+계산 속성            | computed: { ... }                         | computed(() => …)
+메서드               | methods: { ... }                          | setup 내부 함수 정의
+감시자               | watch: { ... }                            | watch(ref, callback)
+라이프사이클         | mounted(), updated() 등                   | onMounted(), onUpdated() 등
+props 정의           | props: { title: { default: '...' }}        | withDefaults(defineProps(), { title: '...' })
+이벤트 전달          | $emit('event')                            | emit('event') (defineEmits 사용 가능)
+provide/inject       | provide(), inject: []                      | provide(), inject()
+DOM 참조             | ref="input" → this.$refs.input             | const input = ref(null) → input.value
+
+
 
 
 ✅ 빌드 및 실행
