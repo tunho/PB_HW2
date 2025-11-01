@@ -10,6 +10,8 @@ Vue 3 기반 Composition API 문법으로 전환한 실습 모음입니다.
 
 모든 .vue 파일은 아래 포맷을 엄격히 유지합니다.
 
+
+```
 <template>
   <!-- 템플릿 -->
 </template>
@@ -27,6 +29,8 @@ export default {
 <style scoped>
 <!-- 스타일 -->
 </style>
+```
+
 
 🔧 주요 변경 사항
 구분	변경 전 (Vue 2)	변경 후 (Vue 3 Composition API)
