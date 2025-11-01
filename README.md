@@ -32,6 +32,8 @@ export default {
 ```
 
 
+
+```
 구분                | 변경 전 (Vue 2)                            | 변경 후 (Vue 3 Composition API)
 ────────────────────┼────────────────────────────────────────────┼────────────────────────────────────────────
 컴포넌트 정의        | export default { ... }                     | <script setup> + export default { name: ... }
@@ -44,7 +46,7 @@ props 정의           | props: { title: { default: '...' }}        | withDefaul
 이벤트 전달          | $emit('event')                            | emit('event') (defineEmits 사용 가능)
 provide/inject       | provide(), inject: []                      | provide(), inject()
 DOM 참조             | ref="input" → this.$refs.input             | const input = ref(null) → input.value
-
+```
 
 
 
