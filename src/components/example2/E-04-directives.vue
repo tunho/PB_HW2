@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-
     <ul>
       <li v-for="item in items" :key="item.id">
         {{ item.name }}
@@ -27,8 +26,42 @@
 
       <button @click="count++">Increment Count</button>
     </div>
-
   </div>
+</template>
+
+<script lang="ts">
+export default {
+  name: 'E04Directives'
+}
+</script>
+
+<script setup lang="ts">
+import { reactive, toRefs } from 'vue'
+
+const state = reactive({
+  isVisible: true,
+  items: [
+    { id: 1, name: 'Item 1' },
+    { id: 2, name: 'Item 2' },
+    { id: 3, name: 'Item 3' },
+    { id: 4, name: 'Item 4' }
+  ],
+  count: 0
+})
+
+const { isVisible, items, count } = toRefs(state)
+</script>
+
+<style scoped>
+.container {
+  display: grid;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  grid-gap: 20px;
+}
+</style>
+
 
 <!--
  directives
@@ -49,33 +82,3 @@
 15. v-is
 16. v-memo
  -->
-</template>
-
-<script>
-export default {
-  name: "E04Directives",
-  data() {
-    return {
-      isVisible: true,
-      items: [
-        { id: 1, name: "Item 1" },
-        { id: 2, name: "Item 2" },
-        { id: 3, name: "Item 3" },
-        { id: 4, name: "Item 4" },
-      ],
-      count: 0,
-    };
-  }
-};
-</script>
-
-<style scoped>
-.container {
-  display: grid;
-  width: 300px;
-  margin: 0 auto;
-  padding: 20px;
-  grid-gap: 20px;
-
-}
-</style>

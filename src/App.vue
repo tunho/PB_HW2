@@ -3,15 +3,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import E01Instance from "@/components/example1/E-01-instance.vue";
+export default {
+  name: 'App'
+}
+</script>
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    E01Instance
-  }
-});
+<script setup lang="ts">
+import E01Instance from '@/components/example1/E-01-instance.vue'
 </script>
 
 <style>
