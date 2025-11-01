@@ -81,14 +81,14 @@ npm run build
 | **E01Instance** | <img src="./screenshots/E01Instance.png" width="80%" /> |
 | **E02Reactive** | <img src="./screenshots/E02Reactive.png" width="80%" /> |
 | **E03Binding** | <img src="./screenshots/E03Binding.png" width="80%" /> |
-| **E04Directives** | <img src="./screenshots/E04Directives.png" width="80%" /> |
+| **E04Directives** | <img src="./screenshots/E04Directives.png" width="80%" />  <img src="./screenshots/E04Directives1.png" width="80%" /> |
 | **ChildComponent / ParentComponent** | <img src="./screenshots/ChildComponent.png" width="45%" /> <img src="./screenshots/ParentComponent.png" width="45%" /> |
 | **ChildComponent1 / ChildComponent2 / E06ParentComponent** | <img src="./screenshots/ChildComponent1.png" width="30%" /> <img src="./screenshots/ChildComponent2.png" width="30%" /> <img src="./screenshots/E06ParentComponent.png" width="30%" /> |
-| **E07OptionsAPI** | <img src="./screenshots/E07OptionsAPI.png" width="80%" /> |
-| **E08CompositionApi** | <img src="./screenshots/E08CompositionApi.png" width="80%" /> |
-| **E09CompositionAPI2** | <img src="./screenshots/E09CompositionAPI2.png" width="80%" /> |
+| **E07OptionsAPI** | <img src="./screenshots/E07OptionsAPI.png" width="80%" /> <img src="./screenshots/E07OptionsAPI1.png" width="80%" /> |
+| **E08CompositionApi** | <img src="./screenshots/E08CompositionApi.png" width="80%" /> <img src="./screenshots/E08CompositionApi1.png" width="80%" /> |
+| **E09CompositionAPI2** | <img src="./screenshots/E09CompositionAPI2.png" width="80%" /> <img src="./screenshots/E09CompositionAPI21.png" width="80%" /> |
 | **E10Ref** | <img src="./screenshots/E10Ref.png" width="80%" /> |
-| **E11Reactive** | <img src="./screenshots/E11Reactive.png" width="80%" /> |
+| **E11Reactive** | <img src="./screenshots/E11Reactive.png" width="80%" /> <img src="./screenshots/E11Reactive1.png" width="80%" /> |
 | **E12RefComponent** | <img src="./screenshots/E12RefComponent.png" width="80%" /> |
 
 ---
